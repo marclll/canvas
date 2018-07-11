@@ -1,5 +1,5 @@
 var fx,fy,fw=10,fh=10; 				// f=fruit
-var b=[{dir:"right",x:0,y:0,w:25,h:25}];	  // b=snake     	<------------------- LONGITUD, no fa falta tenir un vector
+var b=[{dir:"right",x:0,y:0,w:25,h:25}];	  // b=snake 
 var dp=15;		// dp=pixels moved each time it moves
 var WIDTH=450,HEIGHT=400;
 var ctx;
