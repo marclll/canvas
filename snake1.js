@@ -10,7 +10,7 @@ var score=0;
 function initialize(){
 	ctx=document.getElementById("context").getContext("2d");
 	updateFruit();
-	interval=setInterval(update,150);
+	interval=setInterval(update,100);
 }
 
 function draw(x,y,w,h,color){
